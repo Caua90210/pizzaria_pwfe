@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 375px){
+
+    .img-body{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+    }
+
+    h1{
+        color: white;
+        position: absolute;
+        top: 400px;
+        left: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .text_info{
+        color: white;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        left: 15px;
+        top: 530px;
+    }
+
+    .comecar{
+        position: absolute;
+        top:680px;
+        left: 35px;
+        width: 295px;
+        height: 54px;
+        border-radius: 8px ;
+        background-color: white;
+        color: #F27706;
+        border: none;
+        text-align: center;
+        justify-content: center;
+        text-decoration: none;
+        padding: 18.5px 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}

@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 375px){
+
+    .img-body{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+    }
+
+    h1{
+        color: white;
+        position: absolute;
+        top: 200px;
+        left: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .text_info{
+        color: white;
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        left: 15px;
+        top: 290px;
+    }
+
+    .entrar{
+        position: absolute;
+        top: 600px;
+        left: 35px;
+        width: 295px;
+        height: 54px;
+        border-radius: 8px ;
+        background-color: white;
+        color: #F27706;
+        border: none;
+        text-align: center;
+        justify-content: center;
+        text-decoration: none;
+        padding: 18.5px 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .esqueci_senha{
+        position: absolute;
+        top: 660px;
+        text-decoration: none;
+        color: white;
+        left: 230px;
+        font-size: small;
+        font-weight: 100;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .conta{
+        position: absolute;
+        top: 710px;
+        text-decoration: none;
+        color: white;
+        left: 110px;
+        font-size: small;
+        font-weight: 100;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .criar_conta{
+        position: absolute;
+        top: 750px;
+        text-decoration: none;
+        color: white;
+        left: 145px;
+        font-size: small;
+        font-weight: 200;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .email{
+        position: absolute;
+        top: 380px;
+        color:aliceblue
+        color: white;
+        left: 110px;
+        border-bottom-width: 1px;
+        border-color: white ;
+        background-color: transparent;
+    }
+}
